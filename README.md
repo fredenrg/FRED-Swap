@@ -51,3 +51,5 @@ Security
 
 Without giving too much away at this point, secret keys for the pool accounts are not stored on the server. The app is hosted on a secure server and several security measures are put in place to prevent cyber attacks and further secure the application.
 
+FRED Swap can be found at https://swap.fredenergy.org
+
