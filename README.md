@@ -19,7 +19,7 @@ This could be considered an interim solution until smart contracts for the Stell
 
 A Stellar based project bridging to and from other blockchains can create greater awareness of their project, bring new users to the Stellar ecosystem and provide access to further DeFi offerings of other blockchains.
 
-In addition, supply and demand is adjusted as assets are bridged to and from the various blockchains. This is only true when a project has a maximum supply across all chains (see FRED Energy above).
+In addition, supply and demand is adjusted as assets are bridged to and from the various blockchains. This is only true when a project has a maximum supply across all chains (see FRED Energy example).
 
 FRED Energy set out this vision in January 2021 with the initial idea to bridge to Ethereum, however, due to rising gas costs, BSC was chosen as a lower cost alternative. Our bridge can be configured to the Ethereum blockchain, BSC and with a little more development, many other blockchains.
 
