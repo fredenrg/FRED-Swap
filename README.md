@@ -64,5 +64,7 @@ MongoDB - the database of choice for the application.
 
 Without giving too much away at this point, secret keys for the pool accounts are not stored on the server. The app is hosted on a secure server and several security measures are put in place to prevent cyber attacks and further secure the application.
 
+Video https://www.youtube.com/watch?v=u7SCH3r7CJw&list=PLT42cs8i5DsG5oPuJKCo53Rp3OkCF66lb&index=1
+
 FRED Swap can be found at https://swap.fredenergy.org
 
