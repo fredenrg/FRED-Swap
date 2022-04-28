@@ -65,7 +65,14 @@ MongoDB - the database of choice for the application.
 
 Without giving too much away at this point, secret keys for the pool accounts are not stored on the server. The app is hosted on a secure server and several security measures are put in place to prevent cyber attacks and further secure the application.
 
+**Links**
+
 Video https://www.youtube.com/watch?v=u7SCH3r7CJw&list=PLT42cs8i5DsG5oPuJKCo53Rp3OkCF66lb&index=1
 
 FRED Swap can be found at https://swap.fredenergy.org
 
+Stellar explorer - https://stellar.expert/explorer/public/account/GDBTQ7V63WLGFKUQMWNKJLOFGXVT7XXWBNCF2UULAWJ54Y4X6GVDSWAP
+
+BSC explorer - https://bscscan.com/token/0x321614eb36245bf2e2f2e58badaaaad1475e1026
+
+ETH explorer (ETH swaps not yet enabled) - https://etherscan.io/token/0xd8e2b153e94daec5fe657a49ff59bb68fa67f126
