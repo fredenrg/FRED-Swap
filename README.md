@@ -21,7 +21,7 @@ A Stellar based project bridging to and from other blockchains can create greate
 
 In addition, supply and demand is adjusted as assets are bridged to and from the various blockchains. This is only true when a project has a maximum supply across all chains (see FRED Energy example).
 
-FRED Energy set out this vision in January 2021 with the initial idea to bridge to Ethereum, however, due to rising gas costs, BSC was chosen as a lower cost alternative. Our bridge can be configured to the Ethereum blockchain, BSC and with a little more development, many other blockchains.
+FRED Energy set out this vision in January 2021 with the initial idea to bridge to Ethereum, however, due to rising gas costs, BSC and Polygon were chosen as a lower cost alternatives. Our bridge can be configured to the Ethereum blockchain, BSC and with a little more development, many other blockchains.
 
 **Example of our supply;**
 
@@ -29,9 +29,9 @@ FRED Energy has a combined maximum supply of 808 Million tokens across all block
 
 404 Million tokens are allocated to the Stellar Blockchain (FRED) (initially 808M tokens were created with 404M later being burned)
 
-404 Million tokens are allocated to the BSC and ETH blockchains, initially 808M ETH tokens were created with 404M later being burned. The current total is 100M bridged to BSC and 304M on Ethereum.
+404 Million tokens are allocated to the BSC, Polygon and ETH blockchains, initially 808M ETH tokens were created with 404M later being burned. The current total is 100M bridged to BSC, 100M bridged to Polygon and 204M on Ethereum.
 
-The swap pool will eventually hold 10M of FRED (Stellar) and 10M of bFREDx (BSC) exclusively for the bridge tool.
+The swap pool will eventually hold 10M of FRED (Stellar), 10M of bFREDx (BSC) and 10M of pFREDX exclusively for the bridge tool.
 
 Although now outdated, our YouTube explainer from 2021 https://www.youtube.com/watch?v=eY3hkwfTk8A gives the idea of what we set out to do and why.
 
@@ -39,9 +39,9 @@ Although now outdated, our YouTube explainer from 2021 https://www.youtube.com/w
 
 The swap process begins with inputting the amount of tokens you want to swap, which displays the corresponding amount of tokens to receive. When this happens, several checks occur in real time: 
 1. The apps checks if the swap pool has enough tokens for the swap. 
-2. The app checks if the connected wallet has enough tokens for the swap (if connected to your wallet, otherwise this check would be done whenever you connect to your wallet). If any of these checks fail, they are displayed to the user and the swap process can not continue until input values are adjusted to pass both checks. The receiving address is also a required input (BSC or Stellar address). 
+2. The app checks if the connected wallet has enough tokens for the swap (if connected to your wallet, otherwise this check would be done whenever you connect to your wallet). If any of these checks fail, they are displayed to the user and the swap process can not continue until input values are adjusted to pass both checks. The receiving address is also a required input (BSC, Polygon or Stellar address). 
 3. If checks 1,2 pass, swapping starts and the first action is to confirm that the receiving address exists and was correctly inputted. If this check fails, it stops the swap process, (to avoid a failed transaction from the server to the user).
-4. A trustline check is made if swapping from bFREDX (BSC) to FRED (Stellar), if no trustline exists, a claimable balance is created instead of a direct payment.
+4. A trustline check is made if swapping from bFREDX (BSC) or pFREDX (Polygon) to FRED (Stellar), if no trustline exists, a claimable balance is created instead of a direct payment.
 5. When initial checks are complete (and successful), the connected wallet (Rabet or MetaMask), prompts the user to sign and confirm the transaction.
 6. Next, the wallet begins the process of sending the tokens to the swap pool and the server monitors the process, awaiting a successful transfer of tokens from the user's wallet to the swap pool.
 7. Once the transfer from step 6 is successful, the server instantly sends the correct amount of tokens to the receiving address (provided in step 1).
@@ -53,7 +53,7 @@ FRED Swap was largely built with React on the front-end and Nodejs for the back-
 
 Rabet (extension) - for integrating a Stellar wallet connection into the app.
 
-MetaMask (extension) - for integrating a BSC wallet connection into the app.
+MetaMask (extension) - for integrating a BSC, Polygon wallet connection into the app.
 
 Express - to set up the server for the application.
 
