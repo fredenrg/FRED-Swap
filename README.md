@@ -1,11 +1,11 @@
 # FRED-Swap
-Overview of FRED Swap, a Stellar to BSC bridge app
+Overview of FRED Swap, a Stellar to BSC and Polygon bridge app
 
 
 **Introduction**
 
-FRED Swap is a bridge to swap between FRED tokens on the Stellar network and bFREDX tokens on the BSC (Binance smart chain) network, and vice versa. 
-Tokens are swapped in a ratio of 1:1, with a pool fee of 0.5XLM to cover BSC gas fees (when swapping from FRED to bFREDX only).
+FRED Swap is a bridge to swap between FRED tokens on the Stellar network and bFREDX tokens on the BSC (Binance smart chain) network, pFREDX on the Polygon Network and vice versa. 
+Tokens are swapped in a ratio of 1:1, with a pool fee of 0.5XLM to cover BSC and Polygon gas fees (when swapping from FRED to bFREDX, pFREDX only).
 
 **Rationale for method used**
 
